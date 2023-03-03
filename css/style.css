@@ -1,0 +1,1121 @@
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  /**
+   * Remove the margin in all browsers.
+   */
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  button,
+  [type=button],
+  [type=reset],
+  [type=submit] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  button::-moz-focus-inner,
+  [type=button]::-moz-focus-inner,
+  [type=reset]::-moz-focus-inner,
+  [type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  button:-moz-focusring,
+  [type=button]:-moz-focusring,
+  [type=reset]:-moz-focusring,
+  [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  [type=checkbox],
+  [type=radio] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  [type=number]::-webkit-inner-spin-button,
+  [type=number]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  [type=search] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 10+.
+   */
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  [hidden] {
+    display: none;
+  }
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1;
+    
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: "";
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .main-section{
+    min-height: 1097px;
+    background-image: url(../img/Background\ \(3\).png);
+    position: relative;
+  }
+  .background__pattern{
+    width: 44px;
+    height: 44px;
+    border: 3px solid #F8BDBD;
+    border-radius:50%;
+    position: absolute;
+    top: 75%;
+    right: 56vw;
+  }
+ 
+  .container{
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+  .main-section__header{
+    height: 81px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding-top: 61px;
+  }
+  .header__logo{
+    width: 211px;
+    display: flex;
+    margin-right: 175px;
+  }
+  .logo2{
+    position: absolute;
+    top: 36px;
+    right: 1137px;
+  }
+  .header__title{
+    padding-left: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 160%;
+    color: #2C2D36;
+    height: 48px;
+  }
+  .main-section__list{
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+  .main-section__items{
+    margin-right: 58px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #292930;
+    position: relative;
+  }
+  .main-section__items:hover:after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #FFDC60;
+    width: 50%;
+    margin-left: 15px;
+    top: 85%;
+    right: 50%;
+  }
+
+  .main-section__items:hover:before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: #0e0d0a;
+    width: 50%;
+    top: 85%;
+    right: 0;
+  }
+  .header-btn{
+    width: 182px;
+    height: 64px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #292930;
+    border-radius: 7px;
+  }
+
+  .header-btn:hover{
+    background-color:rgb(27, 29, 31);
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    margin-top: 25px;
+    z-index: 1;
+  }
+  
+  .fa-circle-chevron-down{
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .items-flex{
+    display:flex;
+  }
+  .agenty-span{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #FEC90C;
+    margin-bottom: 10px;
+  }
+  .main-section__items2{
+    position: absolute;
+    top: 300px;
+    
+  }
+  .main-section__bottom{
+    display: inline;
+  }
+  .items2-btn{
+    margin-left: 20px;
+    background-color:#f9f9f9;
+    color: #0e0d0a;
+  }
+  .main-section__items2-agenty{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #292930;
+
+  }
+  .main-section__items2-title{
+    width: 740px;
+    height: 231px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 110.5%;
+    color: #292930;
+    margin-bottom: 34px;
+  }
+  .main-section__items2-title span{
+    width: 740px;
+    height: 231px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 110.5%;
+    color: #5956E8;
+  }
+  .main-section__items2-p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #555555;
+    width: 593px;
+    margin-bottom: 34px;
+  }
+  .main-section-images img{
+    position: absolute;
+    right: 23px;
+    top: 161px;
+  }
+  .section-images{
+    position: absolute;
+    right: 630px;
+    top: 98px;
+  }
+  .section-images2{
+    position: absolute;
+    right: 44px;
+    top: 550px;
+  }
+  .second-section{
+    background: #292930;
+    min-height: 1579px;
+  }
+  .second-section__cicle{
+    width: 88px;
+    height: 88px;
+    border: 0px;
+    background: #5956E8;
+    border-radius:50%;
+    position: relative;
+  }
+  .cicle-img2{
+    position: absolute;
+    right: 35px;
+    top: 35px;
+  }
+  .cicle-img{
+    position: absolute;
+    right: 26px;
+    top: 26px;
+  }
+  .main-section__items2-agenty2{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color:#f9f9f9;
+    margin-bottom: 15px;
+  }
+  .section-service-text{
+    padding-left: 39px;
+  }
+  .items3-btn{
+    background-color:#f9f9f9;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #292930;
+    width: 174px;
+  }
+  .service-text-p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    width: 747px;
+    margin-right: 159px;
+  }
+  .fa-circle-chevron-right{
+    color: #5956E8;
+    width: 14px;
+    height: 14px;
+    padding-left: 8px;
+  }
+  .second-section-service{
+    display:flex;
+    margin-bottom: 90px;
+    padding-top: 173px;
+  }
+  .second-section__items{
+    width: 352px;
+    height: 475px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    margin-bottom: 67px;
+  }
+  .second-section__items-bacground{
+    width: 153px;
+    height: 153px;
+    background: #292930;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+  .second-section__items-bacground img{
+    width: 50%;
+    height: 50%;
+  }
+  .second-section__content{
+    padding-top: 41px;
+    padding-left: 39px;
+  }
+  .second-section-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 173px;
+  }
+  .second-section__items-title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+  }
+  .second-section__items-text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    color: #D0D0D0;
+    margin-bottom: 26px;
+  }
+  .new1{
+    color: #525255;
+  }
+  .new1:hover{
+    color:#5956E8;
+  }
+  .section__items-button{
+    width: 266px;
+    height: 62px;
+    border: 1px solid #535355;
+    border-radius: 7px;
+    color: #525255;
+  }
+  .section__items-button:hover{
+    background: #FFDC60;
+    color: #292930;
+  }
+  .the-third{
+    min-height: 950px;
+    background: #F5F5F5;
+    align-items:center;
+    display: flex;
+  }
+  .box-img{
+    width: 88px;
+    height: 88px;
+    background: #FFDC60;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-img img{
+    width: 24px;
+    height: 38px;
+  }
+  .the-third__text{
+    margin-bottom: 41px;
+  }
+  .the-third__p span{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #5956E8;
+  }
+  .the-third__p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #292930;
+    margin-top: 34px;
+    margin-bottom: 14px;
+  }
+  .the-third__title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    color: #292930;
+  }
+  .the-third__items{
+    width: 389px;
+    height: 554px;
+    background: #F7F7F7;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    margin-right: 17px;
+ 
+  }
+  .the-third__items:last-child{
+    margin-right: 0px;
+  }
+  .fa-circle-check{
+    color:#3FCD78;
+  }
+  .box-img{
+    text-align: center;
+    
+  }
+  .the-third__text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    
+  }
+  .the-third__content{
+    display: flex;
+    justify-content:space-between
+  }
+  .the-third__items__title{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row
+  }
+  .the-third__items__title img{
+    width: 49.14px;
+    height: 51.61px;
+    margin-right: 34px;
+    margin-top: 68px;
+    
+  }
+  .the-third__title-box{
+    padding-left: 38px;
+    
+  }
+  .the-third__items-h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #292930;
+    padding-top: 45px;
+  }
+  .the-third__items-h3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 110.5%;
+    color: #292930;
+  }
+  .the-third__items-h3 span{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    text-align: center;
+    color: #555555;
+  }
+  .items__title-column{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .the-third__items-line{
+    padding-top: 30px;
+    border-bottom: 1px solid #D3D3D3;
+    margin-bottom: 30px;
+  }
+  .the-third__items-li{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    color: #555555;
+  }
+  .fa-circle-check{
+    margin-right: 5px;
+  }
+  .fa-circle-xmark{
+    margin-right: 5px;
+    color: #FF5353;
+  }
+  .the-third__items-ul{
+    margin-bottom: 30px;
+  }
+  .the-third__items-button{
+    width: 313px;
+    height: 64px;
+    background: #292930;
+    border-radius: 7px;
+    margin-top: 30px;
+  }
+  .the-third__items:hover{
+    background: #292930;
+  }
+  .the-third__title-box:hover > .the-third__items-button{
+    background: #F6F6F6;
+    color: #292930;
+    border:none;
+  }
+  .the-third__items-h3:hover{
+    color: #FFFFFF;
+  }
+  .the-third__title-box:hover > .the-third__items-li{
+    color: #FFFFFF;
+  }
+ 
+  .the-third__title-box:hover .the-third__items-h3,
+  .the-third__title-box:hover span,
+  .the-third__title-box:hover .the-third__items-h2{
+    color: #FFFFFF;
+}
+.fourth-section{
+  background: #292930;
+  min-height: 1034px;
+  display: flex;
+  align-items:center;
+}
+.fourth-box{
+  display: flex;
+}
+.fourth-box-bacground{
+  width: 399px;
+  height: 652.16px;
+  background: #3C3C45;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-box__logo{
+  display: flex;
+}
+.header__logo2{
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+.logo3{
+  position: absolute;
+  right: 161px;
+  top: -4px;
+}
+.fourth-box__h2{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 160%;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+.fourth-blue{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.fourth-blue img{
+  width: 55%;
+  margin-right: 40px;
+}
+.fourth-blue__h2{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 110.5%;
+  color: #FFFFFF;
+}
+.fourth-blue__p{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+  color: #D0D0D0;
+  margin-bottom: 18px;
+}
+.fourth-box__border{
+  width: 293px;
+}
+.fourth__items-button{
+  width: 293px;
+  background: #5B5B61;
+  border:0px;
+  margin-bottom: 18px;
+}
+input{
+  width: 293px;
+  height: 62px;
+  background: #5B5B61;
+  padding-left: 18px;
+  border-radius: 7px;
+  border:0px;
+  margin-bottom: 18px;
+}
+input::placeholder{
+  color: #FFFFFF;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+input[type=submit]{
+  width: 293px;
+  background: #FFDC60;
+  border:0px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #292930;
+  border:0px;
+}
+input[type=submit]:hover{
+
+  background: #adaa9c;
+}
+.fourth-right{
+  display: flex;
+  width: 800px;
+  
+}
+.fourth-right__one{
+  margin-left: 99px;
+  margin-right: 110px;
+}
+.fourth-right__one-h2{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 110.5%;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+.fa-phone{
+  color: #3AD879;
+  font-size: 23px;
+  padding-right: 5px;
+}
+.fourth-right__backgraund{
+  width: 255px;
+  height: 62px;
+  background: #3C3C45;
+  border-radius: 7px;
+}
+.fourth-right__tell{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 156.5%;
+  color: #FFDC60;
+  margin-left: 32px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+.fourth-right__mail{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+.right__location-h2{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 110.5%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.right__location-p{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.right__location-span{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+  text-decoration-line: underline;
+  color: #FFDC60;
+}
+.right-footer{
+ width: 702px;
+ display: flex;
+}
+.right__location-line{
+  border: 1px solid #727274;
+  margin-bottom: 50px;
+  width: 702px;
+}
+.right__location-line2{
+  border: 1px solid #727274;
+  margin-bottom: 50px;
+  width: 702px;
+  margin-top: 35px;
+}
+.footer__pages-h2{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 110.5%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  width: 180px;
+}
+.footer__pages-h2 img{
+  padding-right: 5px;
+  height: 20px;
+}
+.footer__pages-li{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 211.5%;
+  color: #FFFFFF;
+  width: 173px;
+}
+.right-footer__pages{
+  margin-right: 111px;
+  width: 152px;
+}
+.footer-4{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 211.5%;
+  color: #FFFFFF;
+  width: 593px;
+  margin-left: 99px;
+  
+}
